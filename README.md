@@ -2,7 +2,7 @@
 ### Parte 1 - Transações de Consultas e Modificações de Dados
 
 1. **Definição da Tarefa:** Executar statements de consulta e modificação de dados no banco de dados via transações.
-2. **Implementação:** Aqui, você vai criar transações que envolvem operações de `SELECT`, `INSERT`, `UPDATE` e `DELETE` dentro de uma transação. Vou fornecer um exemplo básico para te ajudar a começar.
+2. **Implementação:** Aqui, você vai criar transações que envolvem operações de `SELECT`, `INSERT`, `UPDATE` e `DELETE` dentro de uma transação. 
 
 ```sql
 BEGIN;
@@ -25,7 +25,7 @@ COMMIT;
 ### Parte 2 - Transação com Procedure
 
 1. **Definição da Tarefa:** Criar uma transação dentro de uma procedure, incluindo verificação de erro para um `ROLLBACK` total ou parcial usando `SAVEPOINT`.
-2. **Implementação:** Vou criar um exemplo de procedure que verifica uma condição e, se houver um erro, utiliza o `ROLLBACK` com `SAVEPOINT`.
+2. **Implementação:** um exemplo de procedure que verifica uma condição e, se houver um erro, utiliza o `ROLLBACK` com `SAVEPOINT`.
 
 ```sql
 DELIMITER //
@@ -61,7 +61,7 @@ DELIMITER ;
 ### Parte 3 - Backup e Recovery
 
 1. **Definição da Tarefa:** Executar o backup do banco de dados e-commerce e restaurá-lo usando `mysqldump`.
-2. **Implementação:** Vou descrever como fazer o backup e recovery com `mysqldump`.
+2. **Implementação:**  como fazer o backup e recovery com `mysqldump`.
 
 #### Backup com mysqldump
 
